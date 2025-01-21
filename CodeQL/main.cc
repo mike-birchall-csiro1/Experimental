@@ -46,7 +46,7 @@ int main(int argc,char** argv) {
         cout << source<<endl;
         cout << target << endl;
 	
-	dummyfn();
+	dummyfn(2);
 	
 	return 0;
 	
