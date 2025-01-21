@@ -1,6 +1,7 @@
 #include <iostream>
 #include<cstring>
 void dummyfn(int n);
+int foo(int x);
 using namespace std;
 
 
@@ -48,6 +49,10 @@ int main(int argc,char** argv) {
 	
 	dummyfn(2);
 	
-	return 0;
-	
+        cout<< "Bad code example"<< endl;
+        foo(1);
+
+        return 0;
 }
+
+

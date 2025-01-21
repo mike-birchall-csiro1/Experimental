@@ -11,10 +11,5 @@ void foo(int x) {
 }
 
 
-int main (int argc, char** argv) {
-        cout<< "Bad code example"<< endl;
-        foo(1);
-        return 0;
-}
 
 
