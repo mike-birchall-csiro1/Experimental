@@ -1,7 +1,9 @@
 #include <iostream>
 #include<cstring>
-
+void dummyfn(int n);
 using namespace std;
+
+
 
 class badClass {
 	int codeno;
@@ -44,6 +46,7 @@ int main(int argc,char** argv) {
         cout << source<<endl;
         cout << target << endl;
 	
+	dummyfn();
 	
 	return 0;
 	
