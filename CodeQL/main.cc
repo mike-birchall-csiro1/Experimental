@@ -15,6 +15,16 @@ char* test() {
 
 }
 
+void int_test()
+{
+    int* ptr = new int(5);
+
+
+    // return without deallocating ptr
+    return;
+}
+
+
 int main(int argc,char** argv) {
 
 	cout << " CodeQL Test " << endl;
@@ -22,6 +32,7 @@ int main(int argc,char** argv) {
 	cout<<c<<endl;
 	c[10]='D';
 
+	int_test();
 	return 0;
 	
 }
