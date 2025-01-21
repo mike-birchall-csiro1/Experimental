@@ -1,2 +1,2 @@
 all:
-	g++ main.cc -o test
+	g++ main.cc -o test_badcode

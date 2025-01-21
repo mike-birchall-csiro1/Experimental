@@ -1,4 +1,5 @@
 #include <iostream>
+#include<cstring>
 
 using namespace std;
 
@@ -33,6 +34,17 @@ int main(int argc,char** argv) {
 	c[10]='D';
 
 	int_test();
+	
+	char source[ ] = " fresh2refresh" ;
+        char target[ ]= "C tutorial" ;
+        cout << source<<endl;
+        cout << target << endl;
+	strncat(target, source, sizeof(target) - strlen(target));
+	
+        cout << source<<endl;
+        cout << target << endl;
+	
+	
 	return 0;
 	
 }
