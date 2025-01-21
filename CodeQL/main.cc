@@ -7,10 +7,10 @@ class badClass {
 	bool flag;
 };
 
-void test() {
+char* test() {
 	char* c=new char[0];
 	*c='K';
-	cout<<c<<endl;
+	return c;
 	//delete(c);
 
 }
@@ -18,7 +18,10 @@ void test() {
 int main(int argc,char** argv) {
 
 	cout << " CodeQL Test " << endl;
-	test();	
+	char*c=test();	
+	cout<<c<<endl;
+	c[10]='D';
+
 	return 0;
 	
 }
